@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>all.qss</file>
+        <file>style/icon/cil-speaker.png</file>
+        <file>style/icon/home.png</file>
+        <file>style/icon/shopping_cart.png</file>
+        <file>style/icon/commodities_management.png</file>
+        <file>style/icon/setting.png</file>
+        <file>style/icon/order.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,107 @@
+
+QMainWindow{
+    background-color:#EEF4F9;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+QListWidget {
+    background-color: transparent; /* 透明背景 */
+    border: none; /* 无边框 */
+    font-size: 10.5pt;
+
+}
+
+QListWidget::item {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px; /* 圆角 */
+    padding: 5px;
+    height: 25px; /* 条目高度 */
+}
+
+QListWidget::item:hover {
+    background-color: #E6EBF0; /* 悬停变深 */
+}
+
+QListWidget::item:selected {
+    border-left: 3px solid #0067C0; /* 选中时短蓝色竖条 */
+    background-color: #E6EBF0;
+    border-radius: 5px;
+    color: black; /* 显式指定选中时的字体颜色 */
+}
+
+/*-----------------------------------------------------------------*/
+
+QPushButton {
+    min-height: 35px; /* 增加按钮高度，Qt 默认高度通常为 30px */
+    max-height: 35px; /* 确保高度固定 */
+    font-size: 10.5pt;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+QLineEdit {
+    min-height: 35px; /* 增加 QLineEdit 高度，默认通常为 25-30px */
+    max-height: 35px;
+    font-size: 10.5pt;
+}
+
+QComboBox {
+    min-height: 35px; /* 增加 QComboBox 高度，默认通常为 25-30px */
+    max-height: 35px;
+    font-size: 10.5pt;
+}
+
+/*-----------------------------------------------------------------*/
+
+QLabel {
+    font-size: 10.5pt;
+}
+
+/*-----------------------------------------------------------------*/
+
+QTableWidget {
+    background-color: #F7F9FC;
+    font-size: 10.5pt; /* 自定义字体大小 */
+}
+
+QTableWidget::item {
+    border: 0px; /* 去除所有边框，包括网格线 */
+    background-color: transparent; /* 确保单元格背景透明 */
+}
+
+QHeaderView::section {
+    background-color: transparent; /* 表头背景透明 */
+    border: 0px; /* 去除表头边框 */
+    font-size: 10.5pt; /* 表头字体大小 */
+}
+
+QTableCornerButton::section {
+    background-color: transparent; /* 表格左上角按钮背景透明 */
+    border: 0px; /* 去除边框 */
+}
+
+QTableWidget::item:selected {
+    color: black; /* 选中时字体颜色保持黑色，防止变成白色 */
+}
+
+/*-----------------------------------------------------------------*/
+
+QComboBox QAbstractItemView::item {
+    min-height: 30px;
+}
+
+/*-----------------------------------------------------------------*/
+
+QSpinBox {
+    min-height: 30px;
+    max-height: 30px;
+    padding: 5px;
+    font-size: 10.5pt; /* 字体大小一致 */
+}
+
+
+
